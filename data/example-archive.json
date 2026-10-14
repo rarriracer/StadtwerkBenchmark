@@ -1,0 +1,162 @@
+{
+  "created_at": "2026-10-08T14:00:28.359899+00:00",
+  "reports": [
+    {
+      "id": "cae6aa29fa511b050bfbc222feb1d9b9de839528d71295594bb005c156fc2c5d",
+      "company": "Stadtwerke Flensburg",
+      "year": 2024,
+      "categories": [
+        "Gas",
+        "Strom",
+        "Wasser",
+        "Wärme"
+      ],
+      "metrics": [
+        "electricity_sales_total",
+        "gas_sales_total",
+        "heat_sales",
+        "water_sales"
+      ],
+      "labels": [
+        "Stromabsatz gesamt",
+        "Gasabsatz gesamt",
+        "Wärmeabsatz",
+        "Wasserabsatz"
+      ],
+      "pdf": "Geschäftsberichte/Beispiele/Stadtwerke_Flensburg_2024.pdf",
+      "analysis": "data/examples/Stadtwerke_Flensburg_2024.json",
+      "analysis_sha256": "fbc316ecef658b9a3aba09cf0796394dd72c16bb92e583be287ac03908332eff"
+    },
+    {
+      "id": "820806f585815f8048eeb650e790369ec2dcbf9f2fcd880b107ae7296edce978",
+      "company": "Stadtwerke Karlsruhe",
+      "year": 2024,
+      "categories": [
+        "Finanzen",
+        "Gas",
+        "Strom",
+        "Wärme"
+      ],
+      "metrics": [
+        "electricity_sales_total",
+        "gas_sales_total",
+        "heat_sales",
+        "operating_cashflow"
+      ],
+      "labels": [
+        "Stromabsatz gesamt",
+        "Gasabsatz gesamt",
+        "Wärmeabsatz",
+        "Operativer Cashflow"
+      ],
+      "pdf": "Geschäftsberichte/Beispiele/Stadtwerke_Karlsruhe_2024.pdf",
+      "analysis": "data/examples/Stadtwerke_Karlsruhe_2024.json",
+      "analysis_sha256": "f7bca8096fcb2af037ec67300f06a1ee9eea19732dd041a1aae451f3c0113d65"
+    },
+    {
+      "id": "21210aaff67b974799690572ef35717acbd24924abd5902fbda65f31065aa9a6",
+      "company": "Stadtwerke Leipzig",
+      "year": 2024,
+      "categories": [
+        "Finanzen",
+        "Gas",
+        "Strom",
+        "Wärme"
+      ],
+      "metrics": [
+        "electricity_sales_total",
+        "gas_sales_total",
+        "heat_sales",
+        "ebit",
+        "electricity_generation",
+        "net_income",
+        "operating_cashflow",
+        "equity",
+        "investments"
+      ],
+      "labels": [
+        "Stromabsatz gesamt",
+        "Gasabsatz gesamt",
+        "Wärmeabsatz",
+        "EBIT",
+        "Stromerzeugung gesamt",
+        "Jahresüberschuss",
+        "Operativer Cashflow",
+        "Eigenkapital",
+        "Investitionen"
+      ],
+      "pdf": "Geschäftsberichte/Beispiele/Stadtwerke_Leipzig_2024.pdf",
+      "analysis": "data/examples/Stadtwerke_Leipzig_2024.json",
+      "analysis_sha256": "b48cf1ff93ad9835a64bc39396d71d5f6e15bbff9838bb623f0455ac06dda085"
+    },
+    {
+      "id": "acbdaa9e3aa6b4e83be23a3b470aba41b46cd54d0d113b5e6af1748f7ac8413c",
+      "company": "Stadtwerke Münster",
+      "year": 2023,
+      "categories": [
+        "Finanzen",
+        "Gas",
+        "Strom",
+        "Wasser",
+        "Wärme"
+      ],
+      "metrics": [
+        "electricity_sales_total",
+        "gas_sales_total",
+        "heat_sales",
+        "interest_expense",
+        "water_sales",
+        "ebit",
+        "ebitda",
+        "electricity_generation"
+      ],
+      "labels": [
+        "Stromabsatz gesamt",
+        "Gasabsatz gesamt",
+        "Wärmeabsatz",
+        "Zinsaufwand",
+        "Wasserabsatz",
+        "EBIT",
+        "EBITDA",
+        "Stromerzeugung gesamt"
+      ],
+      "pdf": "Geschäftsberichte/Beispiele/Stadtwerke_Muenster_2023.pdf",
+      "analysis": "data/examples/Stadtwerke_Muenster_2023.json",
+      "analysis_sha256": "903a6202da8aa0e0465e1ebfdfdd9f2d787335c7aadb19e2b2403f7b17b5a909"
+    },
+    {
+      "id": "5a177274f3e14c81e53c0204dbb253b8495a499c2b43bdbbd4489b626740aa4a",
+      "company": "Stadtwerke Solingen",
+      "year": 2025,
+      "categories": [
+        "Finanzen",
+        "Gas",
+        "Strom",
+        "Wasser"
+      ],
+      "metrics": [
+        "electricity_sales_total",
+        "gas_sales_total",
+        "water_sales",
+        "net_income",
+        "revenue",
+        "balance_total",
+        "investments"
+      ],
+      "labels": [
+        "Stromabsatz gesamt",
+        "Gasabsatz gesamt",
+        "Wasserabsatz",
+        "Jahresüberschuss",
+        "Umsatz",
+        "Bilanzsumme",
+        "Investitionen"
+      ],
+      "pdf": "Geschäftsberichte/Beispiele/Stadtwerke_Solingen_2024-2025.pdf",
+      "analysis": "data/examples/Stadtwerke_Solingen_2024-2025.json",
+      "analysis_sha256": "3f1f50b090f807c0a6599f776494e3a89e9f3c3dddf0e79324140501926ef1fe"
+    }
+  ],
+  "scope": "Beispielauswahl; keine Garantie vollständiger semantischer Extraktion",
+  "schema_version": 1
+}

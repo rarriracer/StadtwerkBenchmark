@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stadtwerke-ausblick"
+version = "0.1.0"
+description = "Lokaler, belegbarer Stadtwerke-Ausblick mit LangChain und LangGraph"
+requires-python = ">=3.12"
+dependencies = [
+  "langchain-core>=1.0,<2",
+  "langchain-ollama>=1.0,<2",
+  "langgraph>=1.0,<2",
+  "langgraph-checkpoint-sqlite>=3,<4",
+  "pypdfium2>=5,<6",
+  "duckdb>=1.4,<2",
+  "pdfplumber>=0.11,<1",
+  "rapidocr-onnxruntime==1.4.4",
+  "pydantic>=2.10,<3",
+  "httpx>=0.28,<1",
+  "streamlit>=1.50,<2",
+  "python-pptx>=1.0,<2",
+  "tzdata>=2026.5",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stadtwerke"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

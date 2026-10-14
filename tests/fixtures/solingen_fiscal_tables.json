@@ -1,0 +1,1139 @@
+[
+  {
+    "page": 59,
+    "text": "ZAHLENWERK\nErzeugungen\nAUS BETEILIGUNGEN\nBiogas\nPV\nca.\n72 Mio.\nkWh\nOnshore Wind\nWindpark\nPV-Park\nIn Betrieb\nIm Bau\nIn Entwicklung\nKennzahlen\nUMSATZERLÖSE\n2024/2025 2023/2024 2022/2023\nStrom (in Mio. €) 122,4 120,2 127,4\nVerkaufsmenge (Mio. kWh) 456,951 438,194 446,148\nGas (in Mio. €) 86,6 94,8 107,1\nVerkaufsmenge (Mio. kWh) 869,133 894,802 969,850\nWasser (in Mio. €) 26,4 25,0 24,3\nVerkaufsmenge (Mio. m³) 10,518 10,524 10,115\nVerkehr (in Mio. €) 19,2 17,1 17,1\n59",
+    "tables": [
+      {
+        "years": [
+          2025,
+          2024,
+          2023
+        ],
+        "roles": [
+          "reported",
+          "reported",
+          "reported"
+        ],
+        "header": "UMSATZERLÖSE\n2024/2025 2023/2024 2022/2023",
+        "heading": "UMSATZERLÖSE",
+        "kind": "",
+        "rows": [
+          {
+            "label": "Strom (in Mio. €)",
+            "values": [
+              "122,4",
+              "120,2",
+              "127,4"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Strom (in Mio. €) 122,4 120,2 127,4",
+            "bbox": [
+              42.52260000000001,
+              655.3848,
+              524.7805999999999,
+              664.8848
+            ]
+          },
+          {
+            "label": "Verkaufsmenge (Mio. kWh)",
+            "values": [
+              "456,951",
+              "438,194",
+              "446,148"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Verkaufsmenge (Mio. kWh) 456,951 438,194 446,148",
+            "bbox": [
+              42.52260000000001,
+              673.8433,
+              524.7806,
+              683.3433
+            ]
+          },
+          {
+            "label": "Gas (in Mio. €)",
+            "values": [
+              "86,6",
+              "94,8",
+              "107,1"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gas (in Mio. €) 86,6 94,8 107,1",
+            "bbox": [
+              42.52260000000001,
+              692.8147999999999,
+              524.7805999999999,
+              702.3148
+            ]
+          },
+          {
+            "label": "Verkaufsmenge (Mio. kWh)",
+            "values": [
+              "869,133",
+              "894,802",
+              "969,850"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Verkaufsmenge (Mio. kWh) 869,133 894,802 969,850",
+            "bbox": [
+              42.52260000000001,
+              711.2733,
+              524.7806,
+              720.7733
+            ]
+          },
+          {
+            "label": "Wasser (in Mio. €)",
+            "values": [
+              "26,4",
+              "25,0",
+              "24,3"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Wasser (in Mio. €) 26,4 25,0 24,3",
+            "bbox": [
+              42.52260000000001,
+              729.7507999999999,
+              524.7806,
+              739.2507999999999
+            ]
+          },
+          {
+            "label": "Verkaufsmenge (Mio. m³)",
+            "values": [
+              "10,518",
+              "10,524",
+              "10,115"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Verkaufsmenge (Mio. m³) 10,518 10,524 10,115",
+            "bbox": [
+              42.522599999999954,
+              748.2093,
+              524.7805999999999,
+              757.7093
+            ]
+          },
+          {
+            "label": "Verkehr (in Mio. €)",
+            "values": [
+              "19,2",
+              "17,1",
+              "17,1"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Verkehr (in Mio. €) 19,2 17,1 17,1",
+            "bbox": [
+              42.522599999999954,
+              766.6868,
+              524.7806,
+              776.1868
+            ]
+          }
+        ],
+        "column_units": [
+          "",
+          "",
+          ""
+        ],
+        "period_labels": [
+          "2024/2025",
+          "2023/2024",
+          "2022/2023"
+        ],
+        "column_entities": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "page": 60,
+    "text": "ZAHLENWERK\nKONZESSIONSABGABE\n2024/2025 2023/2024 2022/2023\nStrom (in €) 6.169.553,62 6.451.367,20 5.652.714,83\nGas (in €) 496.416,21 462.634,23 471.926,71\nWasser (in €) 3.240.726,87 3.002.646,30 2.842.379,73\nUNTERNEHMENSGEGENSTAND\nGasversorgung seit Wasserversorgung seit Stromversorgung und\nÖffentlicher Nahverkehr seit\n1859 1883 1897\nSTADTWERKE SOLINGEN GMBH\n2024/2025 2023/2024\nENERGIE & WASSER\nGezeichnetes Kapital (T€) 61.360 61.360\nBilanzsumme (T€) 335.864 313.931\nJahresüberschuss (T€) 4.876 3.568\nInvestitionen (T€) 22.008 21.239\nAbschreibungen (T€) 14.894 13.579\nUmsatzerlöse (T€) 312.950 312.746\nSOLINGEN\n2024/2025 2023/2024\nStadtgebiet Größe (qkm ) 89,5 89,5\nStadtgebiet Einwohner (Anzahl, Stand jeweils zum 30.09.) 164.044 165.091\n60",
+    "tables": [
+      {
+        "years": [
+          2025,
+          2024,
+          2023
+        ],
+        "roles": [
+          "reported",
+          "reported",
+          "reported"
+        ],
+        "header": "KONZESSIONSABGABE\n2024/2025 2023/2024 2022/2023",
+        "heading": "",
+        "kind": "",
+        "rows": [
+          {
+            "label": "Strom (in €)",
+            "values": [
+              "6.169.553,62",
+              "6.451.367,20",
+              "5.652.714,83"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Strom (in €) 6.169.553,62 6.451.367,20 5.652.714,83",
+            "bbox": [
+              42.52260000000001,
+              142.6553,
+              524.7805999999999,
+              152.1553
+            ]
+          },
+          {
+            "label": "Gas (in €)",
+            "values": [
+              "496.416,21",
+              "462.634,23",
+              "471.926,71"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gas (in €) 496.416,21 462.634,23 471.926,71",
+            "bbox": [
+              42.522599999999954,
+              161.12329999999997,
+              524.7806,
+              170.62329999999997
+            ]
+          },
+          {
+            "label": "Wasser (in €)",
+            "values": [
+              "3.240.726,87",
+              "3.002.646,30",
+              "2.842.379,73"
+            ],
+            "units": [
+              "",
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Wasser (in €) 3.240.726,87 3.002.646,30 2.842.379,73",
+            "bbox": [
+              42.522599999999954,
+              179.59129999999993,
+              524.7805999999999,
+              189.09129999999993
+            ]
+          }
+        ],
+        "column_units": [
+          "",
+          "",
+          ""
+        ],
+        "period_labels": [
+          "2024/2025",
+          "2023/2024",
+          "2022/2023"
+        ],
+        "column_entities": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "years": [
+          2025,
+          2024
+        ],
+        "roles": [
+          "reported",
+          "reported"
+        ],
+        "header": "STADTWERKE SOLINGEN GMBH 2024/2025 2023/2024",
+        "heading": "",
+        "kind": "",
+        "rows": [
+          {
+            "label": "Gezeichnetes Kapital (T€)",
+            "values": [
+              "61.360",
+              "61.360"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gezeichnetes Kapital (T€) 61.360 61.360",
+            "bbox": [
+              42.0967,
+              481.36319999999995,
+              499.89220000000006,
+              490.86319999999995
+            ]
+          },
+          {
+            "label": "Bilanzsumme (T€)",
+            "values": [
+              "335.864",
+              "313.931"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Bilanzsumme (T€) 335.864 313.931",
+            "bbox": [
+              42.0967,
+              501.20869999999996,
+              499.89219999999995,
+              510.70869999999996
+            ]
+          },
+          {
+            "label": "Jahresüberschuss (T€)",
+            "values": [
+              "4.876",
+              "3.568"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Jahresüberschuss (T€) 4.876 3.568",
+            "bbox": [
+              42.08719999999994,
+              521.0542,
+              499.88269999999994,
+              530.5542
+            ]
+          },
+          {
+            "label": "Investitionen (T€)",
+            "values": [
+              "22.008",
+              "21.239"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Investitionen (T€) 22.008 21.239",
+            "bbox": [
+              42.08719999999994,
+              540.8996999999999,
+              499.8827,
+              550.3996999999999
+            ]
+          },
+          {
+            "label": "Abschreibungen (T€)",
+            "values": [
+              "14.894",
+              "13.579"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Abschreibungen (T€) 14.894 13.579",
+            "bbox": [
+              42.08719999999994,
+              560.7452000000001,
+              499.8827,
+              570.2452000000001
+            ]
+          },
+          {
+            "label": "Umsatzerlöse (T€)",
+            "values": [
+              "312.950",
+              "312.746"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Umsatzerlöse (T€) 312.950 312.746",
+            "bbox": [
+              42.08719999999994,
+              580.5907,
+              499.8826999999999,
+              590.0907000000001
+            ]
+          }
+        ],
+        "column_units": [
+          "",
+          ""
+        ],
+        "period_labels": [
+          "2024/2025",
+          "2023/2024"
+        ],
+        "column_entities": [
+          "",
+          ""
+        ]
+      },
+      {
+        "years": [
+          2025,
+          2024
+        ],
+        "roles": [
+          "reported",
+          "reported"
+        ],
+        "header": "SOLINGEN\n2024/2025 2023/2024",
+        "heading": "",
+        "kind": "",
+        "rows": [
+          {
+            "label": "Stadtgebiet Größe (qkm )",
+            "values": [
+              "89,5",
+              "89,5"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Stadtgebiet Größe (qkm ) 89,5 89,5",
+            "bbox": [
+              42.51400000000001,
+              731.2943,
+              500.31899999999996,
+              740.7943
+            ]
+          },
+          {
+            "label": "Stadtgebiet Einwohner (Anzahl, Stand jeweils zum 30.09.)",
+            "values": [
+              "164.044",
+              "165.091"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Stadtgebiet Einwohner (Anzahl, Stand jeweils zum 30.09.) 164.044 165.091",
+            "bbox": [
+              42.51400000000001,
+              766.3208,
+              500.30949999999996,
+              775.8208
+            ]
+          }
+        ],
+        "column_units": [
+          "",
+          ""
+        ],
+        "period_labels": [
+          "2024/2025",
+          "2023/2024"
+        ],
+        "column_entities": [
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "page": 62,
+    "text": "ZAHLENWERK\nSTADTWERKE SOLINGEN GMBH WASSER 2024/2025 2023/2024\nTechnische Daten Verteilungsanlagen\nSpeicherbehälter (Stück) 6 6\nDruckerhöhungsstationen (Stück) 6 6\nFallrohre (km) 2,8 2,8\nHaupttransportleitungen (km) 48,7 48,7\nVersorgungsleitungen (km) 547,5 544,7\nGesamte Rohrnetzlänge (km) 599,0 596,2\nGesamte Hausanschlüsse (Stück) 32.831 32.804\nEingebaute Zähler (Stück) 33.101 33.101\nSWS NETZE SOLINGEN GMBH GAS 2024/2025 2023/2024\nTechnische Daten Verteilungsanlagen\nÜbernahmestationen (Stück) 10 10\nBezirksregelanlagen (Stück) 20 20\nRohrnetzlänge Niederdruck (km) 421,2 420,4\nRohrnetzlänge Mittel- und Hochdruck (km) 71,5 71,9\nGesamte Rohrnetzlänge (km) 492,7 492,3\nNiederdruck-Anschlüsse (Stück) 25.126 25.154\nHoch- und Mitteldruckanschlüsse (Stück) 815 816\nGesamte Hausanschlüsse (Stück) 25.941 25.970\nEingebaute Zähler (Stück) 36.533 36.533\nSWS NETZE SOLINGEN GMBH STROM 2024/2025 2023/2024\nTechnische Daten Verteilungsanlagen\nÜbernahmestationen 110/10 kV (Stück) 7 7\nOrtsnetzstationen (Stück) 872 868\nMittelspannungskabel (km) 565,7 563,3\nNiederspannungskabel (km) 1.064,2 1.061,3\nFreileitungsnetz (km) 24,5 26,7\nGesamte Netzlänge (km) 1.654,4 1.651,3\nKabelanschlüsse (Stück) 34.253 34.126\nFreileitungsanschlüsse (Stück) 801 813\nGesamte Hausanschlüsse (Stück) 35.054 34.939\nEingebaute Zähler (Stück) 109.755 109.755\n62",
+    "tables": [
+      {
+        "years": [
+          2025,
+          2024
+        ],
+        "roles": [
+          "reported",
+          "reported"
+        ],
+        "header": "ZAHLENWERK\nSTADTWERKE SOLINGEN GMBH WASSER 2024/2025 2023/2024",
+        "heading": "STADTWERKE SOLINGEN GMBH WASSER",
+        "kind": "",
+        "rows": [
+          {
+            "label": "Speicherbehälter (Stück)",
+            "values": [
+              "6",
+              "6"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Speicherbehälter (Stück) 6 6",
+            "bbox": [
+              56.976899999999965,
+              106.58380000000011,
+              502.2228999999999,
+              116.08380000000011
+            ]
+          },
+          {
+            "label": "Druckerhöhungsstationen (Stück)",
+            "values": [
+              "6",
+              "6"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Druckerhöhungsstationen (Stück) 6 6",
+            "bbox": [
+              56.976899999999944,
+              126.42930000000013,
+              502.2228999999999,
+              135.92930000000013
+            ]
+          },
+          {
+            "label": "Fallrohre (km)",
+            "values": [
+              "2,8",
+              "2,8"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Fallrohre (km) 2,8 2,8",
+            "bbox": [
+              56.976899999999944,
+              146.27480000000014,
+              502.2323999999999,
+              155.77480000000014
+            ]
+          },
+          {
+            "label": "Haupttransportleitungen (km)",
+            "values": [
+              "48,7",
+              "48,7"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Haupttransportleitungen (km) 48,7 48,7",
+            "bbox": [
+              56.976899999999944,
+              166.12030000000016,
+              502.2323999999999,
+              175.62030000000016
+            ]
+          },
+          {
+            "label": "Versorgungsleitungen (km)",
+            "values": [
+              "547,5",
+              "544,7"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Versorgungsleitungen (km) 547,5 544,7",
+            "bbox": [
+              56.976899999999944,
+              185.96580000000017,
+              502.2324,
+              195.46580000000017
+            ]
+          },
+          {
+            "label": "Gesamte Rohrnetzlänge (km)",
+            "values": [
+              "599,0",
+              "596,2"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gesamte Rohrnetzlänge (km) 599,0 596,2",
+            "bbox": [
+              56.976899999999944,
+              205.80180000000018,
+              502.2324,
+              215.30180000000018
+            ]
+          },
+          {
+            "label": "Gesamte Hausanschlüsse (Stück)",
+            "values": [
+              "32.831",
+              "32.804"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gesamte Hausanschlüsse (Stück) 32.831 32.804",
+            "bbox": [
+              56.976899999999944,
+              225.6473000000002,
+              502.2324,
+              235.1473000000002
+            ]
+          },
+          {
+            "label": "Eingebaute Zähler (Stück)",
+            "values": [
+              "33.101",
+              "33.101"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Eingebaute Zähler (Stück) 33.101 33.101",
+            "bbox": [
+              56.976899999999944,
+              245.50230000000022,
+              502.2229,
+              255.00230000000022
+            ]
+          }
+        ],
+        "column_units": [
+          "",
+          ""
+        ],
+        "period_labels": [
+          "2024/2025",
+          "2023/2024"
+        ],
+        "column_entities": [
+          "",
+          ""
+        ]
+      },
+      {
+        "years": [
+          2025,
+          2024
+        ],
+        "roles": [
+          "reported",
+          "reported"
+        ],
+        "header": "Eingebaute Zähler (Stück) 33.101 33.101\nSWS NETZE SOLINGEN GMBH GAS 2024/2025 2023/2024",
+        "heading": "SWS NETZE SOLINGEN GMBH GAS",
+        "kind": "",
+        "rows": [
+          {
+            "label": "Übernahmestationen (Stück)",
+            "values": [
+              "10",
+              "10"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Übernahmestationen (Stück) 10 10",
+            "bbox": [
+              57.40439999999992,
+              338.9137,
+              502.2324,
+              348.4137
+            ]
+          },
+          {
+            "label": "Bezirksregelanlagen (Stück)",
+            "values": [
+              "20",
+              "20"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Bezirksregelanlagen (Stück) 20 20",
+            "bbox": [
+              57.404399999999896,
+              358.7592,
+              502.2324,
+              368.2592
+            ]
+          },
+          {
+            "label": "Rohrnetzlänge Niederdruck (km)",
+            "values": [
+              "421,2",
+              "420,4"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Rohrnetzlänge Niederdruck (km) 421,2 420,4",
+            "bbox": [
+              57.404399999999896,
+              378.60470000000004,
+              502.2323999999999,
+              388.10470000000004
+            ]
+          },
+          {
+            "label": "Rohrnetzlänge Mittel- und Hochdruck (km)",
+            "values": [
+              "71,5",
+              "71,9"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Rohrnetzlänge Mittel- und Hochdruck (km) 71,5 71,9",
+            "bbox": [
+              57.39489999999995,
+              398.45020000000005,
+              502.2228999999999,
+              407.95020000000005
+            ]
+          },
+          {
+            "label": "Gesamte Rohrnetzlänge (km)",
+            "values": [
+              "492,7",
+              "492,3"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gesamte Rohrnetzlänge (km) 492,7 492,3",
+            "bbox": [
+              57.39489999999995,
+              418.28620000000006,
+              502.2229,
+              427.78620000000006
+            ]
+          },
+          {
+            "label": "Niederdruck-Anschlüsse (Stück)",
+            "values": [
+              "25.126",
+              "25.154"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Niederdruck-Anschlüsse (Stück) 25.126 25.154",
+            "bbox": [
+              57.39489999999995,
+              438.1412000000001,
+              502.2229,
+              447.6412000000001
+            ]
+          },
+          {
+            "label": "Hoch- und Mitteldruckanschlüsse (Stück)",
+            "values": [
+              "815",
+              "816"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Hoch- und Mitteldruckanschlüsse (Stück) 815 816",
+            "bbox": [
+              57.39489999999995,
+              457.9867000000001,
+              502.2228999999999,
+              467.4867000000001
+            ]
+          },
+          {
+            "label": "Gesamte Hausanschlüsse (Stück)",
+            "values": [
+              "25.941",
+              "25.970"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gesamte Hausanschlüsse (Stück) 25.941 25.970",
+            "bbox": [
+              57.39489999999995,
+              477.8227000000001,
+              502.2229,
+              487.3227000000001
+            ]
+          },
+          {
+            "label": "Eingebaute Zähler (Stück)",
+            "values": [
+              "36.533",
+              "36.533"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Eingebaute Zähler (Stück) 36.533 36.533",
+            "bbox": [
+              57.39489999999995,
+              497.67770000000013,
+              502.2229,
+              507.17770000000013
+            ]
+          }
+        ],
+        "column_units": [
+          "",
+          ""
+        ],
+        "period_labels": [
+          "2024/2025",
+          "2023/2024"
+        ],
+        "column_entities": [
+          "",
+          ""
+        ]
+      },
+      {
+        "years": [
+          2025,
+          2024
+        ],
+        "roles": [
+          "reported",
+          "reported"
+        ],
+        "header": "Eingebaute Zähler (Stück) 36.533 36.533\nSWS NETZE SOLINGEN GMBH STROM 2024/2025 2023/2024",
+        "heading": "SWS NETZE SOLINGEN GMBH STROM",
+        "kind": "",
+        "rows": [
+          {
+            "label": "Übernahmestationen 110/10 kV (Stück)",
+            "values": [
+              "7",
+              "7"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Übernahmestationen 110/10 kV (Stück) 7 7",
+            "bbox": [
+              56.69219999999998,
+              589.2524,
+              501.5772,
+              598.7524
+            ]
+          },
+          {
+            "label": "Ortsnetzstationen (Stück)",
+            "values": [
+              "872",
+              "868"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Ortsnetzstationen (Stück) 872 868",
+            "bbox": [
+              56.68270000000001,
+              609.0979,
+              501.57720000000006,
+              618.5979
+            ]
+          },
+          {
+            "label": "Mittelspannungskabel (km)",
+            "values": [
+              "565,7",
+              "563,3"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Mittelspannungskabel (km) 565,7 563,3",
+            "bbox": [
+              56.68270000000001,
+              628.9434,
+              501.5772,
+              638.4434
+            ]
+          },
+          {
+            "label": "Niederspannungskabel (km)",
+            "values": [
+              "1.064,2",
+              "1.061,3"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Niederspannungskabel (km) 1.064,2 1.061,3",
+            "bbox": [
+              56.67319999999995,
+              648.7889,
+              501.56769999999995,
+              658.2889
+            ]
+          },
+          {
+            "label": "Freileitungsnetz (km)",
+            "values": [
+              "24,5",
+              "26,7"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Freileitungsnetz (km) 24,5 26,7",
+            "bbox": [
+              56.67319999999995,
+              668.6344,
+              501.5677,
+              678.1344
+            ]
+          },
+          {
+            "label": "Gesamte Netzlänge (km)",
+            "values": [
+              "1.654,4",
+              "1.651,3"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gesamte Netzlänge (km) 1.654,4 1.651,3",
+            "bbox": [
+              56.67319999999995,
+              688.4704,
+              501.56769999999995,
+              697.9704
+            ]
+          },
+          {
+            "label": "Kabelanschlüsse (Stück)",
+            "values": [
+              "34.253",
+              "34.126"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Kabelanschlüsse (Stück) 34.253 34.126",
+            "bbox": [
+              56.67319999999995,
+              708.3254000000001,
+              501.56769999999995,
+              717.8254000000001
+            ]
+          },
+          {
+            "label": "Freileitungsanschlüsse (Stück)",
+            "values": [
+              "801",
+              "813"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Freileitungsanschlüsse (Stück) 801 813",
+            "bbox": [
+              56.67319999999995,
+              728.1709000000001,
+              501.5677,
+              737.6709000000001
+            ]
+          },
+          {
+            "label": "Gesamte Hausanschlüsse (Stück)",
+            "values": [
+              "35.054",
+              "34.939"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Gesamte Hausanschlüsse (Stück) 35.054 34.939",
+            "bbox": [
+              56.67319999999995,
+              748.0069000000001,
+              501.56769999999995,
+              757.5069000000001
+            ]
+          },
+          {
+            "label": "Eingebaute Zähler (Stück)",
+            "values": [
+              "109.755",
+              "109.755"
+            ],
+            "units": [
+              "",
+              ""
+            ],
+            "section": "",
+            "section_unit": "",
+            "evidence": "Eingebaute Zähler (Stück) 109.755 109.755",
+            "bbox": [
+              56.673199999999895,
+              767.8619000000001,
+              501.5676999999999,
+              777.3619000000001
+            ]
+          }
+        ],
+        "column_units": [
+          "",
+          ""
+        ],
+        "period_labels": [
+          "2024/2025",
+          "2023/2024"
+        ],
+        "column_entities": [
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+]

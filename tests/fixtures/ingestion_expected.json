@@ -1,0 +1,1030 @@
+[
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "revenue",
+    "value": 6349000000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "ebit",
+    "value": 428400000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "ebitda",
+    "value": 1090600000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "equity",
+    "value": 7678200000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "debt",
+    "value": 1407100000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "balance_total",
+    "value": 12962800000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "operating_cashflow",
+    "value": 1623900000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "investments",
+    "value": 1043600000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 2,
+    "metric": "employees",
+    "value": 12145,
+    "unit": "Anzahl"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "electricity_sales_total",
+    "value": 15252000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "gas_sales_total",
+    "value": 25197000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "heat_sales",
+    "value": 4240000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "water_sales",
+    "value": 96000000,
+    "unit": "m³"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "revenue",
+    "value": 2708147000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "revenue",
+    "value": 1491238000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "revenue",
+    "value": 632264000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenchen_2025",
+    "page": 39,
+    "metric": "revenue",
+    "value": 185458000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 16,
+    "metric": "revenue",
+    "value": 1030006000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 16,
+    "metric": "ebitda",
+    "value": 71985000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 16,
+    "metric": "ebit",
+    "value": 36128000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 16,
+    "metric": "net_income",
+    "value": 11230000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 16,
+    "metric": "operating_cashflow",
+    "value": 5100000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 16,
+    "metric": "investments",
+    "value": 121860000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 16,
+    "metric": "employees_fte",
+    "value": 1175,
+    "unit": "FTE"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 20,
+    "metric": "electricity_sales_total",
+    "value": 1139000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 20,
+    "metric": "gas_sales_total",
+    "value": 1951000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 20,
+    "metric": "heat_sales",
+    "value": 503000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 20,
+    "metric": "water_sales",
+    "value": 16400000,
+    "unit": "m³"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 20,
+    "metric": "electricity_generation",
+    "value": 347000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "electricity_network_length",
+    "value": 3756.124,
+    "unit": "km"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "gas_network_length",
+    "value": 982.734,
+    "unit": "km"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "water_network_length",
+    "value": 1137.304,
+    "unit": "km"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "heat_network_length",
+    "value": 193.112,
+    "unit": "km"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "electricity_network_connections",
+    "value": 62863,
+    "unit": "Anzahl"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "gas_network_connections",
+    "value": 38851,
+    "unit": "Anzahl"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "heat_network_connections",
+    "value": 5013,
+    "unit": "Anzahl"
+  },
+  {
+    "report": "Muenster_2023",
+    "page": 23,
+    "metric": "water_network_connections",
+    "value": 56026,
+    "unit": "Anzahl"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 10,
+    "metric": "operating_cashflow",
+    "value": 99719000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 23,
+    "metric": "revenue",
+    "value": 466943000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 23,
+    "metric": "revenue",
+    "value": 169021000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 23,
+    "metric": "revenue",
+    "value": 52001000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 23,
+    "metric": "revenue",
+    "value": 122780000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 39,
+    "metric": "electricity_sales_total",
+    "value": 1135000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 40,
+    "metric": "gas_sales_total",
+    "value": 1212000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 41,
+    "metric": "water_sales",
+    "value": 22355000,
+    "unit": "m³"
+  },
+  {
+    "report": "Karlsruhe_2024",
+    "page": 41,
+    "metric": "heat_sales",
+    "value": 735000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 8,
+    "metric": "revenue",
+    "value": 1981600000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 8,
+    "metric": "ebit",
+    "value": 116100000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 8,
+    "metric": "investments",
+    "value": 145800000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 9,
+    "metric": "electricity_sales_total",
+    "value": 1116000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 9,
+    "metric": "gas_sales_total",
+    "value": 1048000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 9,
+    "metric": "heat_sales",
+    "value": 1286000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 9,
+    "metric": "electricity_generation",
+    "value": 961000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 9,
+    "metric": "heat_generation",
+    "value": 1098000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 9,
+    "metric": "employees_fte",
+    "value": 727,
+    "unit": "FTE"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 12,
+    "metric": "operating_cashflow",
+    "value": 233000000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Leipzig_2024",
+    "page": 13,
+    "metric": "equity",
+    "value": 260600000,
+    "unit": "EUR"
+  },
+  {
+    "report": "Flensburg_2024",
+    "page": 5,
+    "metric": "electricity_sales_total",
+    "value": 2005000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Flensburg_2024",
+    "page": 5,
+    "metric": "gas_sales_total",
+    "value": 727000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Flensburg_2024",
+    "page": 5,
+    "metric": "heat_sales",
+    "value": 890000,
+    "unit": "MWh"
+  },
+  {
+    "report": "Flensburg_2024",
+    "page": 5,
+    "metric": "water_sales",
+    "value": 4900000,
+    "unit": "m³"
+  },
+  {
+    "report": "Mainz_2024",
+    "page": 19,
+    "metric": "heat_sales",
+    "value": 416616,
+    "unit": "MWh"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "electricity_sales_total",
+    "unit": "MWh",
+    "value": 3388900.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "electricity_generation",
+    "unit": "MWh",
+    "value": 911500.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "gas_sales_total",
+    "unit": "MWh",
+    "value": 4227500.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "heat_sales",
+    "unit": "MWh",
+    "value": 920900.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "water_sales",
+    "unit": "m³",
+    "value": 36900000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "wastewater_volume",
+    "unit": "m³",
+    "value": 17800000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "employees",
+    "unit": "Anzahl",
+    "value": 2310,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "apprentices",
+    "unit": "Anzahl",
+    "value": 108,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "personnel_expense",
+    "unit": "EUR",
+    "value": 223500000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "revenue",
+    "unit": "EUR",
+    "value": 1706900000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "ebit",
+    "unit": "EUR",
+    "value": 150500000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "net_income",
+    "unit": "EUR",
+    "value": 128300000.00000001,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "funds_from_operations",
+    "unit": "EUR",
+    "value": 233800000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "balance_total",
+    "unit": "EUR",
+    "value": 2484100000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "investments",
+    "unit": "EUR",
+    "value": 186600000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "dynamic_debt_ratio",
+    "unit": "%",
+    "value": 21.3,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "net_debt_multiple",
+    "unit": "Faktor",
+    "value": 3.5,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "gearing_ratio",
+    "unit": "%",
+    "value": 63.8,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "electricity_sales_total",
+    "unit": "MWh",
+    "value": 3563500.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "electricity_generation",
+    "unit": "MWh",
+    "value": 953600.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "gas_sales_total",
+    "unit": "MWh",
+    "value": 4561400.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "heat_sales",
+    "unit": "MWh",
+    "value": 937100.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "water_sales",
+    "unit": "m³",
+    "value": 38900000.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "wastewater_volume",
+    "unit": "m³",
+    "value": 78100000.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 3,
+    "metric": "sewage_sludge_volume",
+    "unit": "t",
+    "value": 13167,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 34,
+    "metric": "revenue",
+    "unit": "EUR",
+    "value": 1706938000
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 34,
+    "metric": "ebit",
+    "unit": "EUR",
+    "value": 211781000
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 34,
+    "metric": "ebt",
+    "unit": "EUR",
+    "value": 189516000
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 34,
+    "metric": "net_income",
+    "unit": "EUR",
+    "value": 128328000
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 37,
+    "metric": "operating_cashflow",
+    "unit": "EUR",
+    "value": 38230000
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 108,
+    "metric": "equity",
+    "unit": "EUR",
+    "value": 622765000
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 94,
+    "metric": "debt",
+    "unit": "EUR",
+    "value": 414533000
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "electricity_sales_total",
+    "unit": "MWh",
+    "value": 3159500.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "electricity_generation",
+    "unit": "MWh",
+    "value": 736700.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "gas_sales_total",
+    "unit": "MWh",
+    "value": 4494800.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "heat_sales",
+    "unit": "MWh",
+    "value": 937200.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "water_sales",
+    "unit": "m³",
+    "value": 37300000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "wastewater_volume",
+    "unit": "m³",
+    "value": 13600000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "employees",
+    "unit": "Anzahl",
+    "value": 2417,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "apprentices",
+    "unit": "Anzahl",
+    "value": 120,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "personnel_expense",
+    "unit": "EUR",
+    "value": 237000000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "revenue",
+    "unit": "EUR",
+    "value": 1670700000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "ebit",
+    "unit": "EUR",
+    "value": 158400000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "net_income",
+    "unit": "EUR",
+    "value": 79400000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "funds_from_operations",
+    "unit": "EUR",
+    "value": 184400000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "balance_total",
+    "unit": "EUR",
+    "value": 2403800000.0,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "investments",
+    "unit": "EUR",
+    "value": 264399999.99999997,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "dynamic_debt_ratio",
+    "unit": "%",
+    "value": 16.7,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "net_debt_multiple",
+    "unit": "Faktor",
+    "value": 4.9,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "gearing_ratio",
+    "unit": "%",
+    "value": 62.8,
+    "reporting_scope": "consolidated"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "electricity_sales_total",
+    "unit": "MWh",
+    "value": 3362100.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "electricity_generation",
+    "unit": "MWh",
+    "value": 809300.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "gas_sales_total",
+    "unit": "MWh",
+    "value": 4840300.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "heat_sales",
+    "unit": "MWh",
+    "value": 953200.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "water_sales",
+    "unit": "m³",
+    "value": 39300000.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "wastewater_volume",
+    "unit": "m³",
+    "value": 60900000.0,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 3,
+    "metric": "sewage_sludge_volume",
+    "unit": "t",
+    "value": 13710,
+    "reporting_scope": "extended_group"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 39,
+    "metric": "revenue",
+    "unit": "EUR",
+    "value": 1670718000
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 39,
+    "metric": "ebit",
+    "unit": "EUR",
+    "value": 119124000
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 39,
+    "metric": "ebt",
+    "unit": "EUR",
+    "value": 94306000
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 39,
+    "metric": "net_income",
+    "unit": "EUR",
+    "value": 79371000
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 42,
+    "metric": "operating_cashflow",
+    "unit": "EUR",
+    "value": 238521000
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 115,
+    "metric": "equity",
+    "unit": "EUR",
+    "value": 652635000
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 101,
+    "metric": "debt",
+    "unit": "EUR",
+    "value": 485169000
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "electricity_market_share",
+    "value": 80,
+    "unit": "%",
+    "entity": "SLP-Geschäftskunden · Bremen"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "gas_market_share",
+    "value": 74,
+    "unit": "%",
+    "entity": "SLP-Geschäftskunden · Bremen"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "electricity_market_share",
+    "value": 84,
+    "unit": "%",
+    "entity": "SLP-Geschäftskunden · Bremerhaven"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "gas_market_share",
+    "value": 78,
+    "unit": "%",
+    "entity": "SLP-Geschäftskunden · Bremerhaven"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "electricity_market_share",
+    "value": 52,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremen"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "gas_market_share",
+    "value": 34,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremen"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "electricity_market_share",
+    "value": 46,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremerhaven"
+  },
+  {
+    "report": "Bremen_2024",
+    "page": 33,
+    "metric": "gas_market_share",
+    "value": 40,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremerhaven"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 37,
+    "metric": "electricity_market_share",
+    "value": 63,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremen"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 37,
+    "metric": "gas_market_share",
+    "value": 41,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremen"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 37,
+    "metric": "electricity_market_share",
+    "value": 59,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremerhaven"
+  },
+  {
+    "report": "Bremen_2025",
+    "page": 37,
+    "metric": "gas_market_share",
+    "value": 46,
+    "unit": "%",
+    "entity": "RLM-Geschäftskunden · Bremerhaven"
+  }
+]

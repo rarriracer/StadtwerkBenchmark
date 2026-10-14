@@ -1,0 +1,35 @@
+.venv/
+.tools/
+downloads/
+data/raw/
+data/runtime/
+outputs/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.env
+.DS_Store
+
+# Local PDF test collection; the five public examples are included.
+Geschäftsberichte/Testberichte/
+Geschäftsberichte/Bestandsliste.json
+Geschäftsberichte/Quellen.csv
+Geschäftsberichte/Testergebnisse.csv
+data/research/*
+!data/research/company-source-audit-2026-10-13.json
+
+# Personal settings, credentials and local tooling
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*.sqlite
+*.sqlite-*
+*.duckdb
+*.duckdb.wal
+*.ses
+.agents/
+.codex/
+.aws/

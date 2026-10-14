@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-06",
+  "implementation_status": "research_only",
+  "documentation": "docs/API_QUELLEN.md",
+  "eligibility_rules": [
+    "Require valid reference observations in 2024, 2025 and 2026, not HTTP success alone.",
+    "Evaluate nulls, provisional observations and provider status flags.",
+    "Show only topics with compatible evidenced report KPIs, periods, units and entity scope.",
+    "Check regional availability at runtime; NRW/Bonn are examples, not guarantees for every municipality.",
+    "Separate observed references, estimated company numbers and assumed remaining-year development.",
+    "One annual observation cannot establish a trained forecast or statistically calibrated interval."
+  ],
+  "sources": {
+    "energy_capacity": {
+      "url": "https://api.energy-charts.info/v2/installed_power?country=de&time_step=monthly",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:55.876952+00:00",
+      "sha256": "8de513cdc607f89dce22c57c9183b16c3a2aedd7a2a8bbb49980d517b17c0d14",
+      "year_counts": {
+        "2024": 12,
+        "2025": 12,
+        "2026": 10
+      },
+      "available_until": "2026-10-01T00:00:00+02:00"
+    },
+    "weather_archive": {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=50.7374&longitude=7.0982&start_date=2024-01-01&end_date=2026-10-01&daily=temperature_2m_mean,shortwave_radiation_sum&models=era5&timezone=Europe%2FBerlin",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:55.877709+00:00",
+      "sha256": "a1d00e525d3afc8e74b39db145bcbcd8495a438b5fec5d558add191a6280bae8",
+      "year_counts": {
+        "2024": 366,
+        "2025": 365,
+        "2026": 274
+      },
+      "non_null_by_year": {
+        "2024": {
+          "temperature_2m_mean": 366,
+          "shortwave_radiation_sum": 366
+        },
+        "2025": {
+          "temperature_2m_mean": 365,
+          "shortwave_radiation_sum": 365
+        },
+        "2026": {
+          "temperature_2m_mean": 273,
+          "shortwave_radiation_sum": 273
+        }
+      }
+    },
+    "weather_forecast": {
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=50.7374&longitude=7.0982&daily=temperature_2m_mean,shortwave_radiation_sum&forecast_days=7&timezone=Europe%2FBerlin",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:56.101601+00:00",
+      "sha256": "25eb6b0b1b963a554eaa3015fe768f77e2dbf44d01376077c79643db1c0c4735",
+      "year_counts": {
+        "2024": 0,
+        "2025": 0,
+        "2026": 7
+      },
+      "non_null_by_year": {
+        "2024": {
+          "temperature_2m_mean": 0,
+          "shortwave_radiation_sum": 0
+        },
+        "2025": {
+          "temperature_2m_mean": 0,
+          "shortwave_radiation_sum": 0
+        },
+        "2026": {
+          "temperature_2m_mean": 7,
+          "shortwave_radiation_sum": 7
+        }
+      }
+    },
+    "ecb_credit": {
+      "url": "https://data-api.ecb.europa.eu/service/data/MIR/M.DE.B.A2A.D.R.1.2240.EUR.N?startPeriod=2024-01&format=csvdata",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:56.105660+00:00",
+      "sha256": "a9b9c6b125f149f0e20840aefb8d438bff3da4d49fc9484897089d2f60f055cf",
+      "year_counts": {
+        "2024": 12,
+        "2025": 12,
+        "2026": 8
+      }
+    },
+    "bundesbank_credit": {
+      "url": "https://api.statistiken.bundesbank.de/rest/data/BBIM1/M.DE.B.A2A.D.R.1.2240.EUR.N?startPeriod=2024-01&format=csv",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:56.250145+00:00",
+      "sha256": "bbd1cc36a6cd4660b115a11a1533ac474900abaa979bf07f98f8b47317b418dc",
+      "year_counts": {
+        "2024": 12,
+        "2025": 12,
+        "2026": 8
+      }
+    },
+    "smard_prices": {
+      "url": "https://www.smard.de/resource/blob/217306/-/data-csv-data.csv",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:56.272815+00:00",
+      "sha256": "6ea553a60b85e1be271bfc2dea2b6452f766911125edc841a28dce242e37f9cb",
+      "selected_series": {
+        "s-mdl_stpr-1-1": {
+          "year_counts": {
+            "2024": 12,
+            "2025": 12,
+            "2026": 8
+          },
+          "latest": "2026-08-01"
+        },
+        "s-mdl_stpr-1-2": {
+          "year_counts": {
+            "2024": 12,
+            "2025": 12,
+            "2026": 8
+          },
+          "latest": "2026-08-01"
+        },
+        "s-ind_stpr-1-1": {
+          "year_counts": {
+            "2024": 12,
+            "2025": 12,
+            "2026": 8
+          },
+          "latest": "2026-08-01"
+        },
+        "g-mdl_gspr-1-1": {
+          "year_counts": {
+            "2024": 12,
+            "2025": 12,
+            "2026": 8
+          },
+          "latest": "2026-08-01"
+        },
+        "g-mdl_gspr-1-2": {
+          "year_counts": {
+            "2024": 12,
+            "2025": 12,
+            "2026": 8
+          },
+          "latest": "2026-08-01"
+        },
+        "s-mdl_dyn_stpr-1-1": {
+          "year_counts": {
+            "2024": 12,
+            "2025": 12,
+            "2026": 8
+          },
+          "latest": "2026-08-01"
+        }
+      }
+    },
+    "energy_price": {
+      "url": "https://api.energy-charts.info/v2/price?bzn=DE-LU&start=2024-01-01&end=2026-10-06",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:56.472118+00:00",
+      "sha256": "6c0941e8b5e8be28343df5928f05494c808b36a3149abbc8125bf8e343f028af",
+      "year_counts": {
+        "2024": 8784,
+        "2025": 15387,
+        "2026": 26780
+      },
+      "available_until": "2026-10-06T23:45:00+02:00"
+    },
+    "gas_rlm": {
+      "url": "https://www.bundesnetzagentur.de/SiteGlobals/Functions/SVG/_functions/csv_export.html?view=renderCSV&id=870314",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:56.692173+00:00",
+      "sha256": "442f26e553d6620ddc360d12e2563154dec9b8b55f7f8c024d22d4f796e2c063",
+      "year_counts": {
+        "2024": 52,
+        "2025": 52,
+        "2026": 39
+      },
+      "last_available_week": {
+        "2024": 52,
+        "2025": 52,
+        "2026": 39
+      }
+    },
+    "gas_slp": {
+      "url": "https://www.bundesnetzagentur.de/SiteGlobals/Functions/SVG/_functions/csv_export.html?view=renderCSV&id=870322",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:57.190684+00:00",
+      "sha256": "372019dec5aac42323b9facfd9993645ce23807dfa975e5b9d5c4f67e7fc4294",
+      "year_counts": {
+        "2024": 52,
+        "2025": 52,
+        "2026": 38
+      },
+      "last_available_week": {
+        "2024": 52,
+        "2025": 52,
+        "2026": 38
+      }
+    },
+    "kba_nrw": {
+      "url": "https://services-eu1.arcgis.com/U09msXRZoxesNntH/arcgis/rest/services/FZ%20Pkw%20mit%20Elektro%20Antrieb%20Regionen/FeatureServer/0/query?f=json&where=Bundesland%3D%27Nordrhein-Westfalen%27%20AND%20Zulassungsbezirk%3D%27%27%20AND%20Gemeinde%3D%27%27&outFields=Berichtszeitpunkt,Pkw_BEV,ZS_Pkw_BEV,Pkw_Elektro,ZS_Pkw_Elektro&returnGeometry=false&orderByFields=Berichtszeitpunkt",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:57.951356+00:00",
+      "sha256": "b6f946ed2c3df30a4475ce0ec32e0d0ca10ce020a3c88a685266c9872a981698",
+      "year_counts": {
+        "2024": 4,
+        "2025": 4,
+        "2026": 3
+      }
+    },
+    "kba_bonn_share": {
+      "url": "https://services-eu1.arcgis.com/U09msXRZoxesNntH/arcgis/rest/services/FZ%20Pkw%20mit%20Elektro%20Antrieb%20Regionen/FeatureServer/0/query?f=json&where=Gemeindeschluessel%3D%2705314000%27&outFields=Berichtszeitpunkt,Pkw_Elektro_Anteil,ZS_Pkw_Elektro_Anteil&returnGeometry=false&orderByFields=Berichtszeitpunkt",
+      "status": 200,
+      "retrieved_at": "2026-10-06T19:38:57.955150+00:00",
+      "sha256": "6f35a233487b327a7acfa972b970e9e2a0278c744f7fe1f7e4491f0a508d67a2",
+      "year_counts": {
+        "2024": 4,
+        "2025": 4,
+        "2026": 3
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "pv_capacity",
+      "label": "Photovoltaik: Ausbau eigener Anlagen",
+      "sources": [
+        "energy_capacity"
+      ],
+      "required_report_fields": [
+        "PV-Leistung MW/MWp",
+        "Stichtag",
+        "Eigentums-/Beteiligungsumfang"
+      ],
+      "scenario_method": "constant_national_capacity_share",
+      "reference_series": [
+        "solar_dc",
+        "solar_ac"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "MW_DC_or_MW_AC",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "candidate_matching_capacity_or_volume",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "pv_yield",
+      "label": "Photovoltaik: Stromertrag",
+      "sources": [
+        "weather_archive",
+        "weather_forecast"
+      ],
+      "required_report_fields": [
+        "PV-Erzeugung MWh",
+        "Standort oder expliziter Standort-Proxy"
+      ],
+      "scenario_method": "radiation_sensitivity_with_capacity_assumption",
+      "reference_series": [
+        "shortwave_radiation_sum"
+      ],
+      "verified_geography": "plant_coordinates",
+      "metric_unit": "MWh",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "pending_matching_reference_metric",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "wind_capacity",
+      "label": "Windenergie: Ausbau eigener Anlagen",
+      "sources": [
+        "energy_capacity"
+      ],
+      "required_report_fields": [
+        "Windleistung MW",
+        "onshore/offshore",
+        "Stichtag",
+        "Beteiligungsumfang"
+      ],
+      "scenario_method": "constant_national_capacity_share",
+      "reference_series": [
+        "wind_onshore",
+        "wind_offshore"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "MW",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "candidate_matching_capacity_or_volume",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "battery_capacity",
+      "label": "Batteriespeicher: Ausbau",
+      "sources": [
+        "energy_capacity"
+      ],
+      "required_report_fields": [
+        "Speicherleistung MW und/oder Energieinhalt MWh",
+        "Stichtag"
+      ],
+      "scenario_method": "constant_national_capacity_share",
+      "reference_series": [
+        "battery_storage_power",
+        "battery_storage_capacity"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "MW_and_MWh_separate",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "candidate_matching_capacity_or_volume",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "electricity_household_prices",
+      "label": "Stromvertrieb Haushalte: Preis-/Erlösszenario",
+      "sources": [
+        "smard_prices"
+      ],
+      "required_report_fields": [
+        "Haushaltsabsatz",
+        "zugehöriger Umsatz oder Preis",
+        "Abgaben-/Nettobasis"
+      ],
+      "scenario_method": "price_spread_or_ratio_with_separate_volume",
+      "reference_series": [
+        "s-mdl_stpr-1-1",
+        "s-mdl_stpr-1-2"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "ct/kWh",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "conditional_comparable_price_or_rate",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "electricity_industry_prices",
+      "label": "Stromvertrieb Industrie: Preis-/Erlösszenario",
+      "sources": [
+        "smard_prices"
+      ],
+      "required_report_fields": [
+        "Industrieabsatz",
+        "zugehöriger Umsatz oder Preis",
+        "Vergünstigungsprofil"
+      ],
+      "scenario_method": "price_spread_or_ratio_with_separate_volume",
+      "reference_series": [
+        "s-ind_stpr-1-1"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "ct/kWh",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "conditional_comparable_price_or_rate",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "gas_household_prices",
+      "label": "Gasvertrieb Haushalte: Preis-/Erlösszenario",
+      "sources": [
+        "smard_prices"
+      ],
+      "required_report_fields": [
+        "Haushaltsgasabsatz",
+        "zugehöriger Umsatz oder Preis",
+        "Abgaben-/Nettobasis"
+      ],
+      "scenario_method": "price_spread_or_ratio_with_separate_volume",
+      "reference_series": [
+        "g-mdl_gspr-1-1",
+        "g-mdl_gspr-1-2"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "ct/kWh",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "conditional_comparable_price_or_rate",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "gas_slp_volume",
+      "label": "Gasabsatz Haushalte und kleines Gewerbe",
+      "sources": [
+        "gas_slp"
+      ],
+      "required_report_fields": [
+        "SLP-Gasabsatz MWh/GWh",
+        "Geschäftsjahr",
+        "Gebiet"
+      ],
+      "scenario_method": "constant_national_segment_share",
+      "reference_series": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "GWh/day_weekly_mean",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "candidate_matching_capacity_or_volume",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "gas_rlm_volume",
+      "label": "Gasabsatz Industrie und größere Verbraucher",
+      "sources": [
+        "gas_rlm"
+      ],
+      "required_report_fields": [
+        "RLM-Gasabsatz MWh/GWh",
+        "Geschäftsjahr",
+        "Branchenmix"
+      ],
+      "scenario_method": "constant_national_segment_share",
+      "reference_series": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "GWh/day_weekly_mean",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "candidate_matching_capacity_or_volume",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "heat_weather",
+      "label": "Fernwärme: wetterabhängiger Absatz",
+      "sources": [
+        "weather_archive",
+        "weather_forecast"
+      ],
+      "required_report_fields": [
+        "Wärmeabsatz MWh",
+        "Gebiet"
+      ],
+      "scenario_method": "heating_degree_day_proxy_with_base_load",
+      "reference_series": [
+        "temperature_2m_mean"
+      ],
+      "verified_geography": "service_area_coordinates",
+      "metric_unit": "MWh",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "pending_matching_reference_metric",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "electricity_spot_exposure",
+      "label": "Strombeschaffung: Marktpreisexposition",
+      "sources": [
+        "energy_price"
+      ],
+      "required_report_fields": [
+        "Beschaffungs-/Erzeugungsmenge",
+        "offener Anteil als belegter Wert oder explizite Annahme"
+      ],
+      "scenario_method": "unhedged_volume_price_sensitivity",
+      "reference_series": [
+        "day_ahead_price"
+      ],
+      "verified_geography": "DE-LU",
+      "metric_unit": "EUR/MWh",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "conditional_comparable_price_or_rate",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "financing",
+      "label": "Finanzierung: Zinsbelastung",
+      "sources": [
+        "bundesbank_credit",
+        "ecb_credit"
+      ],
+      "required_report_fields": [
+        "Finanzschulden",
+        "Zinsaufwand",
+        "variable/refinanzierte Schulden als Wert oder Annahme"
+      ],
+      "scenario_method": "repriced_debt_interest_sensitivity",
+      "reference_series": [
+        "M.DE.B.A2A.D.R.1.2240.EUR.N"
+      ],
+      "verified_geography": "DE",
+      "metric_unit": "percent_per_annum",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "conditional_comparable_price_or_rate",
+      "menu_enabled_by_source_check_alone": false
+    },
+    {
+      "id": "ev_market",
+      "label": "E-Mobilität: regionales Marktpotenzial",
+      "sources": [
+        "kba_nrw",
+        "kba_bonn_share"
+      ],
+      "required_report_fields": [
+        "Ladegeschäft im Bericht",
+        "Gebiet"
+      ],
+      "scenario_method": "market_context_then_explicit_utilisation_assumptions",
+      "reference_series": [
+        "Pkw_BEV",
+        "Pkw_Elektro_Anteil"
+      ],
+      "verified_geography": "NRW_counts_Bonn_share_verified",
+      "metric_unit": "count_and_percent_separate",
+      "status": "sources_verified_report_gate_required",
+      "required_reference_gate": "compatible_definition_unit_scope_and_period",
+      "primary_mvp_formula": "U_basis * R_target / R_basis",
+      "direct_ratio_contract_status": "pending_matching_reference_metric",
+      "menu_enabled_by_source_check_alone": false
+    }
+  ],
+  "blocked_topics": [
+    {
+      "id": "regional_pv_registry",
+      "reason": "MaStR access and historical completeness/ownership not verified."
+    },
+    {
+      "id": "public_chargepoint_history",
+      "reason": "Exact public endpoint and compatible 2024/2025 snapshots not tested."
+    },
+    {
+      "id": "local_network_tariffs",
+      "reason": "No universal tested supplier-specific interface with all three years."
+    },
+    {
+      "id": "customer_pv_installation_count",
+      "reason": "Registry plant stock differs from supplier installation sales."
+    },
+    {
+      "id": "live_supplier_profit_or_customer_count",
+      "reason": "No universal public historic/current company API verified."
+    },
+    {
+      "id": "water_waste_transport",
+      "reason": "No cross-provider historic/current interface verified in this research."
+    }
+  ]
+}
