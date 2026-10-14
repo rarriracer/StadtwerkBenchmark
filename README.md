@@ -1,5 +1,7 @@
 # Stadtwerke Analyst
 
+[![Tests](https://github.com/rarriracer/StadtwerkBenchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/rarriracer/StadtwerkBenchmark/actions/workflows/tests.yml)
+
 Ein lokaler Prototyp für die KI-gestützte Auswertung von Geschäftsberichten: belegte Kennzahlen erfassen, öffentliche API-Referenzen verknüpfen und nachvollziehbare Vergleiche als editierbare PowerPoint exportieren.
 
 Das Projekt verbindet ein fachliches Problem der Energiewirtschaft mit Python, strukturierten KI-Ausgaben, Datenbankspeicherung und einem wiederaufnehmbaren Analyseworkflow. Die Entwicklung erfolgt mit KI-Unterstützung; Originalbelege und Rechenregeln werden unabhängig von Modellantworten geprüft.
